@@ -16,14 +16,13 @@
     var that = this; //a reference to ourselves
 	
     var settings = {
-      css: "trn",
-      lang: "en"/*,
+      css: "results",
+      lang: "en",
       t: {
         "translate": {
-          pt: "tradução",
-          br: "tradução"
+          hl: "highlighted",
         }
-      }*/
+      }
     };
     settings = $.extend(settings, options || {});
     if (settings.css.lastIndexOf(".", 0) !== 0)   //doesn't start with '.'
