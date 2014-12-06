@@ -913,4 +913,12 @@ body {
     background-color: #f7f7f7;
 }
 
+.results {
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: bold;
+    padding: 36px;
+    line-height: 36px;
+}
+
 
