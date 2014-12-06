@@ -393,10 +393,15 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
 	<script src="js/wordsmith.js"></script>
+	<script src="js/jquery.translate.js"></script>
+	<script src="js/dictionary.js"></script>
+
+
 	<script>
 	$(function() {
 	$('.results').wordsmith();
 });
+	var translator = $('body').translate({lang: "hl", t: dict}); //use English
 	</script>
 
 </body>
