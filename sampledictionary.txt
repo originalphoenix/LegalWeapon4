@@ -1,0 +1,5 @@
+  "lol": { hl: "<span class="highlight badge1">lol</span>"},
+  "lol2": {hl: "<span class="highlight">lol2</span.>"},
+  "lols": {hl: "<span class="highlight">lols</span.>"},
+
+  
