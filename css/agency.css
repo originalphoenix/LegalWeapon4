@@ -916,20 +916,31 @@ body {
 .results {
     color: rgb(102, 102, 102);
     font-size: 18px;
-    font-weight: bold;
     padding: 36px;
     line-height: 36px;
 }
 
 .highlight {
-    background-color: grey; 
+    background-color: #72B3E6; 
     color: white; 
     padding: 7px; 
     cursor: pointer;
+    font-weight: bold;
 }
 
 .a {
     color: lightgreen;
+}
+
+.badge {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.badge i {
+    margin-top: 20px;
 }
 
 
