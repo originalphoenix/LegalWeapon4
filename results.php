@@ -23,6 +23,7 @@
     <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -44,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Legal Weapon 4</a>
+                <a class="navbar-brand page-scroll" href="#page-top">legalease</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,13 +55,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Graded Legalese</a>
+                        <a class="page-scroll" href="#about">Your Results</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#services">Share</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">Save</a>
                     </li>
                 </ul>
             </div>
@@ -74,8 +75,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Results of our Analysis:</h2>
+                <div class="row">
+                    <div class="row-fluid">
+    <div class="span2 offset1">
+    <img class="liability-badge" src="img/result-badges/Liability.png">
+    <img class="nuclear" src="img/result-badges/Nuclear.png">
+    <img class="payment" src="img/result-badges/Payment.png">
+    </div>
+    <div class="span2">
+    <img class="pr-commercial" src="img/result-badges/PhotoRights_Commercial.png">
+    <img class="pr-noncommercial" src="img/result-badges/PhotoRights_NonCommercial.png">
+    <img class="pr-modify" src="img/result-badges/PhotoRights_Modify.png">
+    </div>
+    <div class="span2">
+    <img class="full-privacy" src="img/result-badges/Privacy_Full.png">
+    <img class="quarter-privacy" src="img/result-badges/Privacy_OneQuarter.png">
+    <img class="three-privacy" src="img/result-badges/Privacy_ThreeQuarter.png">
+    </div>
+    <div class="span2">
+    <img class="refund-30" src="img/result-badges/Refund-30.png">
+    <img class="refund-60" src="img/result-badges/Refund-60.png">
+    <img class="refund-90" src="img/result-badges/Refund-90.png">
+    </div>
+    <div class="span2">
+    <img class="third-party-some" src="img/result-badges/ThirdParty_Bite.png">
+    <img class="third-party-all" src="img/result-badges/ThirdParty_Full.png">
+    </div>
+</div>
+                    
+                </div>
                 </div>
             </div>
             <div class="row">
@@ -133,12 +162,34 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
 	<script src="js/wordsmith.js"></script>
+	<script src="js/replacetxt.js"></script>
+	<script src="js/reformatted-dictionary.js"></script>
+
+
+	
+
+
 	<script>
 	$(function() {
-    	$('.results').wordsmith();
-    });
-	</script>
+	$('.results').wordsmith();
+});
+function clear() {
+    lastPos = null;
+};
 
+window.onscroll = checkScrollSpeed;
+
+function checkScrollSpeed(){
+    var newPos = window.scrollY;
+    if ( lastPos != null ){ // && newPos < maxScroll 
+        var delta = newPos -  lastPos;
+        console.log(delta); // this is the result
+    }
+    lastPos = newPos;
+    timer && clearTimeout(timer);
+    timer = setTimeout(clear, 30);
+};
+	</script>
 </body>
 
 </html>

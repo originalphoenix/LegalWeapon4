@@ -175,7 +175,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Nixie One","Helvetica Neue",Helvetica,Arial,cursive;
     color: #964F4C;
 }
 
@@ -913,4 +913,25 @@ body {
     background-color: #f7f7f7;
 }
 
+/* This is all custom CSS for the Results Page */
 
+span.title {
+    font-size: 4.5em;
+    color: #49201E;
+    font-family: "Lato";
+}
+
+span.subtitle, p.section-title {
+    font-size: 2.5em;
+    color: #964F4C;
+}
+
+.results > p {
+    font-size: 16px;
+}
+
+span.highlight {
+background-color: #67AAE2;
+padding: 3px;
+color: white;
+}

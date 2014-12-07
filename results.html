@@ -79,6 +79,7 @@
                 </div>
             </div>
             <div class="row">
+                <span class="results">Terms of Service</span>
                 <div class="col-lg-12 results">
 TERMS OF SERVICE
 
@@ -395,13 +396,15 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
 	<script src="js/wordsmith.js"></script>
 	<script src="js/jquery.translate.js"></script>
 	<script src="js/dictionary.js"></script>
+	
 
 
 	<script>
 	$(function() {
 	$('.results').wordsmith();
 });
-	var translator = $('body').translate({lang: "hl", t: dict}); //use English
+	var translator = $('body').translate({lang: "en", t: dict}); //use English
+	
 	</script>
 
 </body>

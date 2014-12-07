@@ -4,11 +4,12 @@
  */
 
 var dict = {
-  "TERMS OF SERVICE": {
-    hl: "Terms of Lol"
+  "Home": {
+    pt: "Início"
   },
-  "Download plugin": {
-    pt: "Descarregar plugin",
-    en: "Download plugin"
+  "Terms of Service": {
+     pt: "The translator worked",
+     en: "<span class=\"highlight\">The Translator worked</span>"
   }
 }
+

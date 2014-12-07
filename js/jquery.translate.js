@@ -17,12 +17,13 @@
 	
     var settings = {
       css: "results",
-      lang: "en",
+      lang: "en"/*,
       t: {
         "translate": {
-          hl: "highlighted",
+          pt: "tradução",
+          br: "tradução"
         }
-      }
+      }*/
     };
     settings = $.extend(settings, options || {});
     if (settings.css.lastIndexOf(".", 0) !== 0)   //doesn't start with '.'
@@ -81,6 +82,4 @@
 		
 
   };
-  
 })(jQuery);
-
