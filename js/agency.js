@@ -24,3 +24,33 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Submit form
+$(document).on('click', '#userSubmit', function (e) {
+	$('.home-form').submit();
+	e.preventDefault();
+	return false;
+});
+
+$('.home-form').bind('submit', function (e) {
+	var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax(
+    {
+        url : formURL,
+        type: "POST",
+        data : postData,
+        success:function(result) 
+        {
+            document.location = "results.php?text=" + result;
+        },
+        error: function() 
+        {
+            //if fails  
+            alert('translation failed! try again later')    
+        }
+    });
+
+    e.preventDefault();
+	return false;
+});
