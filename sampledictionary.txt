@@ -99,6 +99,19 @@ Privacy
 	"your mobile network": { hl: "<span class="highlight badge-privacy-unidentifiable">your mobile network</span>"},
 	"mobile network": { hl: "<span class="highlight badge-privacy-unidentifiable">mobile network</span>"},
 
+	"does not ensure": { hl: "<span class="highlight badge-privacy-hacked">does not ensure or warrant</span>"},
+	"does not warrant": { hl: "<span class="highlight badge-privacy-hacked">does not warrant</span>"},
+	"cannot assure you that personally identifiable information will never be used or disclosed": { hl: "<span class="highlight badge-privacy-hacked">cannot assure you that personally identifiable information will never be used or disclosed</span>"},
+	"the security of any information": { hl: "<span class="highlight badge-privacy-hacked">the security of any information</span>"},
+	"reasonable efforts to protect": { hl: "<span class="highlight badge-privacy-hacked">reasonable efforts to protect</span>"},
+	"information can be guaranteed to be": { hl: "<span class="highlight badge-privacy-hacked">information can be guaranteed to be</span>"},
+	"data can be guaranteed to be": { hl: "<span class="highlight badge-privacy-hacked">data can be guaranteed to be</span>"},
+	"provide information at your own risk": { hl: "<span class="highlight badge-privacy-hacked">provide information at your own risk</span>"},
+	"security of any information": { hl: "<span class="highlight badge-privacy-hacked">security of any information</span>"},
+	"disclosure of information": { hl: "<span class="highlight badge-privacy-hacked">disclosure of information</span>"},
+	"theft of information": { hl: "<span class="highlight badge-privacy-hacked">theft of information</span>"},
+	"destruction of information": { hl: "<span class="highlight badge-privacy-hacked">destruction of information</span>"},
+
 3rd Party Shizzle
 	"3rd-party advertisers": { hl: "<span class="highlight badge-3rd-advertising">3rd-party advertisers</span>"},
 	"3rd party advertisers": { hl: "<span class="highlight badge-3rd-advertising">3rd party advertisers</span>"},
@@ -204,3 +217,37 @@ Liability/Responsibility
 
 Nukes
 	"the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons": { hl: "<span class="highlight badge-nuke-easteregg">the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons</span>"},
+
+Payment
+	"price match guarantee": { hl: "<span class="highlight badge-payment-protection">price match guarantee</span>"},
+	"price matching": { hl: "<span class="highlight badge-payment-protection">price matching</span>"},
+	"price match": { hl: "<span class="highlight badge-payment-protection">price match</span>"},
+	"qualifying lower price": { hl: "<span class="highlight badge-payment-protection">qualifying lower price</span>"},
+	"proof of price": { hl: "<span class="highlight badge-payment-protection">proof of price</span>"},
+	"price match policy": { hl: "<span class="highlight badge-payment-protection">price match policy</span>"},
+
+	"yearly renewal": { hl: "<span class="highlight badge-payment-renew">yearly renewal</span>"},
+	"year renewal": { hl: "<span class="highlight badge-payment-renew">year renewal</span>"},
+	"month renewal": { hl: "<span class="highlight badge-payment-renew">month renewal</span>"},
+	"monthly renewal": { hl: "<span class="highlight badge-payment-renew">monthly renewal</span>"},
+	"automatic renewal": { hl: "<span class="highlight badge-payment-renew">automatic renewal</span>"},
+	"automatically renew": { hl: "<span class="highlight badge-payment-renew">automatically renew</span>"},
+	"auto-renew": { hl: "<span class="highlight badge-payment-renew">auto-renew</span>"},
+	"auto-renewal": { hl: "<span class="highlight badge-payment-renew">auto-renewal</span>"},
+	"bi-annual renewal": { hl: "<span class="highlight badge-payment-renew">bi-annual renewal</span>"},
+
+	"valid credit card": { hl: "<span class="highlight badge-payment-accurate">valid credit card</span>"},
+	"card information": { hl: "<span class="highlight badge-payment-accurate">card information</span>"},
+	"card on file": { hl: "<span class="highlight badge-payment-accurate">card on file</span>"},
+	"accurate credit": { hl: "<span class="highlight badge-payment-accurate">accurate credit</span>"},
+	"VALID PAYMENT METHOD": { hl: "<span class="highlight badge-payment-accurate">VALID PAYMENT METHOD</span>"},
+
+	"1-click": { hl: "<span class="highlight badge-payment-1click">1-click</span>"},
+	"1 click": { hl: "<span class="highlight badge-payment-1click">1 click</span>"},
+	"one-click": { hl: "<span class="highlight badge-payment-1click">one-click</span>"},
+	"one click": { hl: "<span class="highlight badge-payment-1click">one click</span>"},
+
+	"sensitive data": { hl: "<span class="highlight badge-payment-SSL">sensitive data</span>"},
+	"SSL": { hl: "<span class="highlight badge-payment-SSL">SSL</span>"},
+	"secure sockets layer": { hl: "<span class="highlight badge-payment-SSL">secure sockets layer</span>"},
+	"Secure Sockets Layer (SSL) encryption": { hl: "<span class="highlight badge-payment-SSL">Secure Sockets Layer (SSL) encryption</span>"},
