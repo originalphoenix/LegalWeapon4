@@ -1,10 +1,5 @@
 "term": { hl: "<span class="highlight badge-cat-grade">term</span>"},
 
-"30-day refund": { hl: "<span class="highlight badge-refund-30">30-day refund</span>"},
-"30-day return": { hl: "<span class="highlight badge-refund-30">30-day return</span>"},
-"lol2": {hl: "<span class="highlight">lol2</span.>"},
-"lols": {hl: "<span class="highlight">lols</span.>"},
-
 Photo rights
 	"Attribution CC BY": { hl: "<span class="highlight badge-photo-by">Attribution CC BY</span>"},
 	"distribute and modify commercially": { hl: "<span class="highlight badge-photo-by">distribute and modify commercially</span>"},
@@ -141,9 +136,13 @@ Privacy
 	"Do Not Track": { hl: "<span class="highlight badge-3rd-cookiesnbeacons">Do Not Track</span>"},
 	"action tags": { hl: "<span class="highlight badge-3rd-cookiesnbeacons">action tags</span>"},
 
-	"you may opt out of receiving": { hl: "<span class="highlight badge-3rd-outtie">you may opt out of </span>"},
-	"you may opt out of interest based ads": { hl: "<span class="highlight badge-3rd-outtie">you may opt out of interest based ads</span>"},
-	"you may opt out of targeted ads": { hl: "<span class="highlight badge-3rd-outtie">you may opt out of targeted ads</span>"},
-	"you can choose not ": { hl: "<span class="highlight badge-3rd-outtie">you can choose not </span>"},
-	"you can choose not ": { hl: "<span class="highlight badge-3rd-outtie">you can choose not </span>"},
-	"you can choose not ": { hl: "<span class="highlight badge-3rd-outtie">you can choose not </span>"},
+	"opt out of receiving": { hl: "<span class="highlight badge-3rd-outtie">opt out of </span>"},
+	"opt out of interest based ads": { hl: "<span class="highlight badge-3rd-outtie">opt out of interest based ads</span>"},
+	"opt out of targeted ads": { hl: "<span class="highlight badge-3rd-outtie">opt out of targeted ads</span>"},
+	"choose not to receive interest-based ads": { hl: "<span class="highlight badge-3rd-outtie">choose not to receive interest-based ads</span>"},
+	"choose not to receive targeted ads": { hl: "<span class="highlight badge-3rd-outtie">choose not to receive targeted ads</span>"},
+	"choose not to receive personalized ads": { hl: "<span class="highlight badge-3rd-outtie">choose not to receive personalized ads</span>"},
+	"choose not to receive interest-based ads": { hl: "<span class="highlight badge-3rd-outtie">choose not to receive interest-based ads</span>"},
+	"choose not to receive targeted ads": { hl: "<span class="highlight badge-3rd-outtie">choose not to receive targeted ads</span>"},
+	"choose not to receive personalized ads": { hl: "<span class="highlight badge-3rd-outtie">choose not to receive personalized ads</span>"},
+	"advertising preferences": { hl: "<span class="highlight badge-3rd-outtie">advertising preferences</span>"},
