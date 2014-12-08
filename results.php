@@ -173,7 +173,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Get it on Git</a>
+                        <li><a href="https://github.com/schristoff/LegalWeapon4">Get it on Git</a>
                         </li>
                     </ul>
                 </div>
