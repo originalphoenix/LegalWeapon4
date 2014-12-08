@@ -300,12 +300,12 @@
         <h4 class="modal-title">Legalese made Legaleasy.</h4>
       </div>
       <div class="modal-body">
-        <p>Welcome to Legalease, these are your results!</p>
-        <p>If you're unsure about any word, highlight it and click to read it's definition</p>
-        <p>Hover over any badge to see it's meaning!</p>
-        <p>Phrases that are highlighted in blue are what we use in the grading process.</p>
+        <p>Welcome to LEGALEASE, these are your results!</p>
+        <p>If you're unsure about any word, <strong>highlight it first,</strong> then click to read it's definition</p>
+        <p>Hover over any badge to see its meaning!</p>
+        <p>Phrases highlighted in blue were used in the grading process.</p>
         <p>Understand what you're agreeing to before it's too late.</p>
-        <p>Thank you for using Legalease!</p>
+        <p>Thank you for using LEGALEASE!</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal" onClick="hide('myModal')">Ok I got it!</button>
