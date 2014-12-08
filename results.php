@@ -17,7 +17,8 @@
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/tooltip-box.css" />
-
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -25,12 +26,14 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+	<link href="//cdn.rawgit.com/noelboss/featherlight/1.0.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.0.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body id="page-top" class="index">
@@ -76,32 +79,70 @@
                     <div class="row-fluid">
    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2 offset1">
    <div class="liability-badge"><img width="100" src="img/result-badges/Liability.png"></div>
-    <div class="nuclear"><img width="100" src="img/result-badges/Nuclear.png"></div>
-   <div class="payment"><img width="100" src="img/result-badges/Payment.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This company reserves the right to delete or alter your content without prior notice.</span></span></span>
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2 offset1">
+   <div class="liability-badge"><img width="100" src="img/result-badges/Nuclear.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This company reserves the right to delete or alter your content without prior notice.</span></span></span>
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2 offset1">
+   <div class="liability-badge"><img width="100" src="img/result-badges/Payment.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This company reserves the right to delete or alter your content without prior notice.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="pr-commercial"> <img width="100" src="img/result-badges/PhotoRights_Commercial.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="pr-noncommercial"><img width="100" src="img/result-badges/PhotoRights_NonCommercial.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="pr-modify"><img width="100" src="img/result-badges/PhotoRights_Modify.png"></div>
     </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="full-privacy"><img width="100" src="img/result-badges/Privacy_Full.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="quarter-privacy"><img width="100" src="img/result-badges/Privacy_OneQuarter.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="three-privacy"><img width="100" src="img/result-badges/Privacy_ThreeQuarters.png"></div>
     </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="refund-30"><img width="100" src="img/result-badges/Refund_30.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="refund-60"><img width="100"src="img/result-badges/Refund_60.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="refund-90"><img width="100"src="img/result-badges/Refund_90.png"></div>
     </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="third-party-some"><img width="100" src="img/result-badges/ThirdParty_Bite.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="third-party-all"><img width="100" src="img/result-badges/ThirdParty_Full.png"></div>
     </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
+    <div class="refund-30"><img width="100" src="img/result-badges/Refund_30.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
+    <div class="refund-60"><img width="100"src="img/result-badges/Refund_60.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
+    <div class="refund-90"><img width="100"src="img/result-badges/Refund_90.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
 </div>
                     
                 </div>
@@ -114,9 +155,17 @@
             </div>
         </div>
     </section>
-
-
-
+<div class="navbar-fixed-bottom" style="margin-bottom: 20px;">
+    <div class="achievement-banner container">
+    	<div class="achievement-icon">
+            <span class="icon"><p style="line-height: 52px !important;"><i class="fa fa-book fa-2x" style="font-size: 32px; line-height: 0px !important;"></i></p></span>
+    	</div>
+    	<div class="achievement-text">
+    		<p class="achievement-notification">Achievement unlocked</p>
+    		<p class="achievement-name">Speed Reader</p>
+    	</div>
+    </div>
+</div>
 
     <footer>
         <div class="container">
@@ -170,75 +219,108 @@
 
 
 	<script>
-	$(function() {
-	$('.results').wordsmith();
-});
-var lastPos = null,
-    timer = 0;
+        $(function() {
+        	$('.results').wordsmith();
+        });
+        var lastPos = null,
+            timer = 0;
+        
+        function clear() {
+            lastPos = null;
+        };
+        
+        window.onscroll = checkScrollSpeed;
 
-function clear() {
-    lastPos = null;
-};
+        function show(target) {
+            document.getElementById(target).style.display = 'block';
+        }
+        
+        function hide(target) {
+            document.getElementById(target).style.display = 'inline-block';
+        }
+        
+        function checkScrollSpeed(){
+            var newPos = window.scrollY;
+            if ( lastPos != null ){ // && newPos < maxScroll 
+                var delta = newPos -  lastPos;
+                console.log(delta); // this is the result
+            }
+            lastPos = newPos;
+            timer && clearTimeout(timer);
+            timer = setTimeout(clear, 30);
+        };
 
-window.onscroll = checkScrollSpeed;
+        $( document ).ready(function() {
+            $('#myModal').modal('show');
+           if ($('span.badge-nuke-easteregg').length){
+                $(".nuclear").css("display", "block");
+            }
+             if ($('span.badge-payment-renew').length){
+                $(".payment").css("display", "block");
+            }
+             if ($('span.badge-photo-by-nd').length){
+                $(".pr-commercial").css("display", "block");
+            }
+             if ($('span.badge-photo-by-nc-sa').length){
+                $(".pr-noncommercial").css("display", "block");
+            }
+             if ($('span.badge-photo-by-nc').length){
+                $(".pr-modify").css("display", "block");
+            }
+             if ($('span.badge-privacy-register').length){
+                $(".full-privacy").css("display", "block");
+            }
+             if ($('span.badge-privacy-hacked').length){
+                $(".quarter-privacy").css("display", "block");
+            }
+             if ($('span.badge-privacy-unidentifiable').length){
+                $(".three-privacy").css("display", "block");
+            }
+             if ($('span.badge-refund-30').length){
+                $(".refund-30").css("display", "block");
+            }
+            if ($('span.badge-refund-30').length){
+                $(".refund-60").css("display", "block");
+            }
+            if ($('span.badge-refund-30').length){
+                $(".refund-90").css("display", "block");
+            }
+                if ($('span.badge-3rd-youshare').length){
+                $(".third-party-some").css("display", "block");
+            }
+                if ($('span.badge-3rd-advertising').length){
+                $(".third-party-all").css("display", "block");
+            }
+            if ($('span.badge-liable-deleteourstuff').length){
+                $(".liability-badge").css("display", "block");
+            }
+        });
 
-function checkScrollSpeed(){
-    var newPos = window.scrollY;
-    if ( lastPos != null ){ // && newPos < maxScroll 
-        var delta = newPos -  lastPos;
-        console.log(delta); // this is the result
-    }
-    lastPos = newPos;
-    timer && clearTimeout(timer);
-    timer = setTimeout(clear, 30);
-};
-
-$( document ).ready(function() {
-   if ($('span.badge-nuke-easteregg').length){
-        $(".nuclear").css("display", "block");
-    }
-     if ($('span.badge-payment-renew').length){
-        $(".payment").css("display", "block");
-    }
-     if ($('span.badge-photo-by-nd').length){
-        $(".pr-commercial").css("display", "block");
-    }
-     if ($('span.badge-photo-by-nc-sa').length){
-        $(".pr-noncommercial").css("display", "block");
-    }
-     if ($('span.badge-photo-by-nc').length){
-        $(".pr-modify").css("display", "block");
-    }
-     if ($('span.badge-privacy-register').length){
-        $(".full-privacy").css("display", "block");
-    }
-     if ($('span.badge-privacy-hacked').length){
-        $(".quarter-privacy").css("display", "block");
-    }
-     if ($('span.badge-privacy-unidentifiable').length){
-        $(".three-privacy").css("display", "block");
-    }
-     if ($('span.badge-refund-30').length){
-        $(".refund-30").css("display", "block");
-    }
-    if ($('span.badge-refund-30').length){
-        $(".refund-60").css("display", "block");
-    }
-    if ($('span.badge-refund-30').length){
-        $(".refund-90").css("display", "block");
-    }
-        if ($('span.badge-3rd-youshare').length){
-        $(".third-party-some").css("display", "block");
-    }
-        if ($('span.badge-3rd-advertising').length){
-        $(".third-party-all").css("display", "block");
-    }
-    if ($('span.badge-liable-deleteourstuff').length){
-        $(".liability-badge").css("display", "block");
-    }
-});
-
+        $(window).load(function(){
+            $('#myModal').modal('show');
+        });
 	</script>
+<!-- Explanation Modal --> 
+<div class="modal" id="myModal">
+      <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Legalese made Legaleasy.</h4>
+      </div>
+      <div class="modal-body">
+        <p>Welcome to Legalese, these are your results!</p>
+        <p>If you're unsure about any word, highlight it and click to read it's definition</p>
+        <p>Hover over any badge to see it's meaning!</p>
+        <p>Understand what you're agreeing to before it's too late.</p>
+        <p>Thank you for using Legalease!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" onClick="hide('myModal')">Ok I got it!</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 </body>
 
 </html>

@@ -1,0 +1,187 @@
+
+	$(".results").replaceText( "Registration Data",  "<span class=\"highlight badge-privacy-register\">Registration Data</span>");
+	$(".results").replaceText( "Account Information",  "<span class=\"highlight badge-privacy-register\">Account Information</span>");
+	$(".results").replaceText( "Registration Information",  "<span class=\"highlight badge-privacy-register\">Registration Information</span>");
+	$(".results").replaceText( "Your account",  "<span class=\"highlight badge-privacy-register\">Your account</span>");
+	$(".results").replaceText( "open an account",  "<span class=\"highlight badge-privacy-register\">open an account</span>");
+	$(".results").replaceText( "password",  "<span class=\"highlight badge-privacy-register\">password</span>");
+	$(".results").replaceText( "passwords",  "<span class=\"highlight badge-privacy-register\">passwords</span>");
+	$(".results").replaceText( "register an account",  "<span class=\"highlight badge-privacy-register\">register an account</span>");
+
+	$(".results").replaceText( "invite your friends",  "<span class=\"highlight badge-privacy-guest\">invite your friends</span>");
+	$(".results").replaceText( "invite friends",  "<span class=\"highlight badge-privacy-guest\">invite friends</span>");
+	$(".results").replaceText( "invite a friend",  "<span class=\"highlight badge-privacy-guest\">invite a friend</span>");
+	$(".results").replaceText( "invitation to a friend",  "<span class=\"highlight badge-privacy-guest\">invitation to a friend</span>");
+	$(".results").replaceText( "invite your family",  "<span class=\"highlight badge-privacy-guest\">invite your family</span>");
+	$(".results").replaceText( "invite your family",  "<span class=\"highlight badge-privacy-guest\">invite a member</span>");
+	$(".results").replaceText( "invite your family",  "<span class=\"highlight badge-privacy-guest\">invite your family</span>");
+	$(".results").replaceText( "invite a member",  "<span class=\"highlight badge-privacy-guest\">invite a member</span>");
+	$(".results").replaceText( "invitation to a family",  "<span class=\"highlight badge-privacy-guest\">invitation to a family</span>");
+
+	$(".results").replaceText( "comply with applicable law",  "<span class=\"highlight badge-privacy-law\">comply with applicable law</span>");
+	$(".results").replaceText( "comply with the law",  "<span class=\"highlight badge-privacy-law\">comply with the law</span>");
+	$(".results").replaceText( "comply with law",  "<span class=\"highlight badge-privacy-law\">comply with law</span>");
+	$(".results").replaceText( "comply with a law",  "<span class=\"highlight badge-privacy-law\">comply with a law</span>");
+	$(".results").replaceText( "necessary disclosure",  "<span class=\"highlight badge-privacy-law\">necessary disclosure</span>");
+	$(".results").replaceText( "in accordance with the law",  "<span class=\"highlight badge-privacy-law\">in accordance with the law</span>");
+	$(".results").replaceText( "criminal investigation",  "<span class=\"highlight badge-privacy-law\">criminal investigation</span>");
+	$(".results").replaceText( "legal process",  "<span class=\"highlight badge-privacy-law\">legal process</span>");
+	$(".results").replaceText( "legal processes",  "<span class=\"highlight badge-privacy-law\">legal processes</span>");
+	$(".results").replaceText( "subpoena",  "<span class=\"highlight badge-privacy-law\">subpoena</span>");
+	$(".results").replaceText( "court order",  "<span class=\"highlight badge-privacy-law\">court order</span>");
+	$(".results").replaceText( "in response to a regulation",  "<span class=\"highlight badge-privacy-law\">in response to a regulation</span>");
+
+	$(".results").replaceText( "IP address",  "<span class=\"highlight badge-privacy-unidentifiable\">IP address</span>");
+	$(".results").replaceText( "IP addresses",  "<span class=\"highlight badge-privacy-unidentifiable\">IP addresses</span>");
+	$(".results").replaceText( "your device identifiers",  "<span class=\"highlight badge-privacy-unidentifiable\">your device identifiers</span>");
+	$(".results").replaceText( "your operating system",  "<span class=\"highlight badge-privacy-unidentifiable\">your operating system</span>");
+	$(".results").replaceText( "demographic information",  "<span class=\"highlight badge-privacy-unidentifiable\">demographic information</span>");
+	$(".results").replaceText( "aggregate information",  "<span class=\"highlight badge-privacy-unidentifiable\">aggregate information</span>");
+	$(".results").replaceText( "web beacons",  "<span class=\"highlight badge-privacy-unidentifiable\">web beacons</span>");
+	$(".results").replaceText( "cookies",  "<span class=\"highlight badge-privacy-unidentifiable\">cookies</span>");
+	$(".results").replaceText( "Internet service provider",  "<span class=\"highlight badge-privacy-unidentifiable\">Internet service provider</span>");
+	$(".results").replaceText( "Internet service providers",  "<span class=\"highlight badge-privacy-unidentifiable\">Internet service providers</span>");
+	$(".results").replaceText( "your ISP",  "<span class=\"highlight badge-privacy-unidentifiable\">your ISP</span>");
+	$(".results").replaceText( "pages you visited",  "<span class=\"highlight badge-privacy-unidentifiable\">pages you visited</span>");
+	$(".results").replaceText( "pages you have visited",  "<span class=\"highlight badge-privacy-unidentifiable\">pages you have visited</span>");
+	$(".results").replaceText( "your device location",  "<span class=\"highlight badge-privacy-unidentifiable\">your device location</span>");
+	$(".results").replaceText( "your location",  "<span class=\"highlight badge-privacy-unidentifiable\">your location</span>");
+	$(".results").replaceText( "your mobile network",  "<span class=\"highlight badge-privacy-unidentifiable\">your mobile network</span>");
+	$(".results").replaceText( "mobile network",  "<span class=\"highlight badge-privacy-unidentifiable\">mobile network</span>");
+
+	$(".results").replaceText( "does not ensure",  "<span class=\"highlight badge-privacy-hacked\">does not ensure</span>");
+	$(".results").replaceText( "does not warrant",  "<span class=\"highlight badge-privacy-hacked\">does not warrant</span>");
+	$(".results").replaceText( "cannot assure you that personally identifiable information will never be used or disclosed",  "<span class=\"highlight badge-privacy-hacked\">cannot assure you that personally identifiable information will never be used or disclosed</span>");
+	$(".results").replaceText( "the security of any information",  "<span class=\"highlight badge-privacy-hacked\">the security of any information</span>");
+	$(".results").replaceText( "reasonable efforts to protect",  "<span class=\"highlight badge-privacy-hacked\">reasonable efforts to protect</span>");
+	$(".results").replaceText( "information can be guaranteed to be",  "<span class=\"highlight badge-privacy-hacked\">information can be guaranteed to be</span>");
+	$(".results").replaceText( "data can be guaranteed to be",  "<span class=\"highlight badge-privacy-hacked\">data can be guaranteed to be</span>");
+	$(".results").replaceText( "provide information at your own risk",  "<span class=\"highlight badge-privacy-hacked\">provide information at your own risk</span>");
+	$(".results").replaceText( "security of any information",  "<span class=\"highlight badge-privacy-hacked\">security of any information</span>");
+	$(".results").replaceText( "disclosure of information",  "<span class=\"highlight badge-privacy-hacked\">disclosure of information</span>");
+	$(".results").replaceText( "theft of information",  "<span class=\"highlight badge-privacy-hacked\">theft of information</span>");
+	$(".results").replaceText( "destruction of information",  "<span class=\"highlight badge-privacy-hacked\">destruction of information</span>");
+
+3rd Party Shizzle
+	$(".results").replaceText( "3rd-party advertisers",  "<span class=\"highlight badge-3rd-advertising\">3rd-party advertisers</span>");
+	$(".results").replaceText( "3rd party advertisers",  "<span class=\"highlight badge-3rd-advertising\">3rd party advertisers</span>");
+	$(".results").replaceText( "third party advertisers",  "<span class=\"highlight badge-3rd-advertising\">third party advertisers</span>");
+	$(".results").replaceText( "ad-serving companies",  "<span class=\"highlight badge-3rd-advertising\">ad-serving companies</span>");
+	$(".results").replaceText( "personalized ads",  "<span class=\"highlight badge-3rd-advertising\">personalized ads</span>");
+	$(".results").replaceText( "targeted ads",  "<span class=\"highlight badge-3rd-advertising\">targeted ads</span>");
+	$(".results").replaceText( "interest-based ads",  "<span class=\"highlight badge-3rd-advertising\">interest-based ads</span>");
+	$(".results").replaceText( "serve advertisements",  "<span class=\"highlight badge-3rd-advertising\">serve advertisements</span>");
+	$(".results").replaceText( "tracking technologies",  "<span class=\"highlight badge-3rd-advertising\">tracking technologies</span>");
+	$(".results").replaceText( "third party ad-serving",  "<span class=\"highlight badge-3rd-advertising\">third party ad-serving</span>");
+	$(".results").replaceText( "information with business partners",  "<span class=\"highlight badge-3rd-advertising\">information with business partners</span>");
+	$(".results").replaceText( "information with third parties",  "<span class=\"highlight badge-3rd-advertising\">information with third parties</span>");
+	$(".results").replaceText( "across different websites",  "<span class=\"highlight badge-3rd-advertising\">across different websites</span>");
+	$(".results").replaceText( "ad networks",  "<span class=\"highlight badge-3rd-advertising\">ad networks</span>");
+
+	$(".results").replaceText( "oAuth",  "<span class=\"highlight badge-3rd-youshare\">oAuth</span>");
+	$(".results").replaceText( "link your account",  "<span class=\"highlight badge-3rd-youshare\">link your account</span>");
+	$(".results").replaceText( "link social media",  "<span class=\"highlight badge-3rd-youshare\">link social media</span>");
+	$(".results").replaceText( "link social accounts",  "<span class=\"highlight badge-3rd-youshare\">link social accounts</span>");
+	$(".results").replaceText( "link your accounts",  "<span class=\"highlight badge-3rd-youshare\">link your accounts</span>");
+	$(".results").replaceText( "link social account",  "<span class=\"highlight badge-3rd-youshare\">link social account</span>");
+	$(".results").replaceText( "link your account",  "<span class=\"highlight badge-3rd-youshare\">link your account</span>");
+	$(".results").replaceText( "third party social media",  "<span class=\"highlight badge-3rd-youshare\">third party social media</span>");
+	$(".results").replaceText( "third party sites",  "<span class=\"highlight badge-3rd-youshare\">third party sites</span>");
+	$(".results").replaceText( "your Twitter",  "<span class=\"highlight badge-3rd-youshare\">your Twitter</span>");
+	$(".results").replaceText( "your Facebook",  "<span class=\"highlight badge-3rd-youshare\">your Facebook</span>");
+	$(".results").replaceText( "your Google",  "<span class=\"highlight badge-3rd-youshare\">your Google</span>");
+
+	$(".results").replaceText( "single-pixel",  "<span class=\"highlight badge-3rd-cookiesnbeacons\">single-pixel</span>");
+	$(".results").replaceText( "web beacon",  "<span class=\"highlight badge-3rd-cookiesnbeacons\">web beacon</span>");
+	$(".results").replaceText( "cookies",  "<span class=\"highlight badge-3rd-cookiesnbeacons\">cookies</span>");
+	$(".results").replaceText( "flash cookies",  "<span class=\"highlight badge-3rd-cookiesnbeacons\">flash cookies</span>");
+	$(".results").replaceText( "ad networks",  "<span class=\"highlight badge-3rd-cookiesnbeacons\">ad networks</span>");
+	$(".results").replaceText( "Do Not Track",  "<span class=\"highlight badge-3rd-cookiesnbeacons\">Do Not Track</span>");
+	$(".results").replaceText( "action tags",  "<span class=\"highlight badge-3rd-cookiesnbeacons\">action tags</span>");
+
+	$(".results").replaceText( "opt out of receiving",  "<span class=\"highlight badge-3rd-outtie\">opt out of receiving</span>");
+	$(".results").replaceText( "opt out of interest based ads",  "<span class=\"highlight badge-3rd-outtie\">opt out of interest based ads</span>");
+	$(".results").replaceText( "opt out of targeted ads",  "<span class=\"highlight badge-3rd-outtie\">opt out of targeted ads</span>");
+	$(".results").replaceText( "choose not to receive interest-based ads",  "<span class=\"highlight badge-3rd-outtie\">choose not to receive interest-based ads</span>");
+	$(".results").replaceText( "choose not to receive targeted ads",  "<span class=\"highlight badge-3rd-outtie\">choose not to receive targeted ads</span>");
+	$(".results").replaceText( "choose not to receive personalized ads",  "<span class=\"highlight badge-3rd-outtie\">choose not to receive personalized ads</span>");
+	$(".results").replaceText( "advertising preferences",  "<span class=\"highlight badge-3rd-outtie\">advertising preferences</span>");
+
+Liability/Responsibility
+	$(".results").replaceText( "offensive",  "<span class=\"highlight badge-liable-material\">offensive</span>");
+	$(".results").replaceText( "spam",  "<span class=\"highlight badge-liable-material\">spam</span>");
+	$(".results").replaceText( "indecent",  "<span class=\"highlight badge-liable-material\">indecent</span>");
+	$(".results").replaceText( "objectionable",  "<span class=\"highlight badge-liable-material\">objectionable</span>");
+	$(".results").replaceText( "obscene",  "<span class=\"highlight badge-liable-material\">obscene</span>");
+	$(".results").replaceText( "threatening",  "<span class=\"highlight badge-liable-material\">threatening</span>");
+	$(".results").replaceText( "defamatory",  "<span class=\"highlight badge-liable-material\">defamatory</span>");
+	$(".results").replaceText( "content is not illegal",  "<span class=\"highlight badge-liable-material\">content is not illegal</span>");
+	$(".results").replaceText( "content is not invasive",  "<span class=\"highlight badge-liable-material\">content is not invasive</span>");
+	$(".results").replaceText( "content is not injurious",  "<span class=\"highlight badge-liable-material\">content is not injurious</span>");
+	$(".results").replaceText( "material is not illegal",  "<span class=\"highlight badge-liable-material\">material is not illegal</span>");
+	$(".results").replaceText( "material is not invasive",  "<span class=\"highlight badge-liable-material\">material is not invasive</span>");
+	$(".results").replaceText( "material is not injurious",  "<span class=\"highlight badge-liable-material\">material is not injurious</span>");
+	
+	$(".results").replaceText( "impose limits",  "<span class=\"highlight badge-liable-throttle\">impose limits</span>");
+	$(".results").replaceText( "limit use of",  "<span class=\"highlight badge-liable-throttle\">limit use of</span>");
+	$(".results").replaceText( "unlimited plans are subject to certain limitations",  "<span class=\"highlight badge-liable-throttle\">unlimited plans are subject to certain limitations</span>");
+	$(".results").replaceText( "unlimited plans are subject to limitations",  "<span class=\"highlight badge-liable-throttle\">unlimited plans are subject to limitations</span>");
+	$(".results").replaceText( "Usage can be restricted",  "<span class=\"highlight badge-liable-throttle\">Usage can be restricted</span>");
+	$(".results").replaceText( "Usage can be limited",  "<span class=\"highlight badge-liable-throttle\">Usage can be limited</span>");
+	$(".results").replaceText( "subject to limitation",  "<span class=\"highlight badge-liable-throttle\">subject to limitation</span>");
+	$(".results").replaceText( "subject to restriction",  "<span class=\"highlight badge-liable-throttle\">subject to restriction</span>");
+	$(".results").replaceText( "restriction on use",  "<span class=\"highlight badge-liable-throttle\">restriction on use</span>");
+	$(".results").replaceText( "limits on use",  "<span class=\"highlight badge-liable-throttle\">limits on use</span>");
+	$(".results").replaceText( "additional restrictions",  "<span class=\"highlight badge-liable-throttle\">additional restrictions</span>");
+	$(".results").replaceText( "additional limits",  "<span class=\"highlight badge-liable-throttle\">additional limits</span>");
+	$(".results").replaceText( "place restrictions",  "<span class=\"highlight badge-liable-throttle\">place restrictions</span>");
+	$(".results").replaceText( "place limits",  "<span class=\"highlight badge-liable-throttle\">place limits</span>");
+
+	$(".results").replaceText( "reserve the right to modify",  "<span class=\"highlight badge-liable-deleteourstuff\">reserve the right to modify</span>");
+	$(".results").replaceText( "reserve the right to terminate",  "<span class=\"highlight badge-liable-deleteourstuff\">reserve the right to terminate</span>");
+	$(".results").replaceText( "reserve the right to refuse",  "<span class=\"highlight badge-liable-deleteourstuff\">reserve the right to refuse</span>");
+	$(".results").replaceText( "reserve the right to change",  "<span class=\"highlight badge-liable-deleteourstuff\">reserve the right to change</span>");
+	$(".results").replaceText( "discontinue",  "<span class=\"highlight badge-liable-deleteourstuff\">discontinue</span>");
+	$(".results").replaceText( "not able to use",  "<span class=\"highlight badge-liable-deleteourstuff\">not able to use</span>");
+	
+	$(".results").replaceText( "without prior notice",  "<span class=\"highlight badge-liable-unexpected\">without prior notice</span>");
+	$(".results").replaceText( "without notice",  "<span class=\"highlight badge-liable-unexpected\">eith out notice</span>");
+
+	$(".results").replaceText( "unauthorized use",  "<span class=\"highlight badge-liable-unauthorized\">unauthorized use</span>");
+	$(".results").replaceText( "occur under your account",  "<span class=\"highlight badge-liable-unauthorized\">occur under your account</span>");
+	$(".results").replaceText( "confidentiality of your",  "<span class=\"highlight badge-liable-unauthorized\">confidentiality of your</span>");
+
+
+	$(".results").replaceText( "the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons",  "<span class=\"highlight badge-nuke-easteregg\">the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons</span>");
+
+	$(".results").replaceText( "price match guarantee",  "<span class=\"highlight badge-payment-protection\">price match guarantee</span>");
+	$(".results").replaceText( "price matching",  "<span class=\"highlight badge-payment-protection\">price matching</span>");
+	$(".results").replaceText( "price match",  "<span class=\"highlight badge-payment-protection\">price match</span>");
+	$(".results").replaceText( "qualifying lower price",  "<span class=\"highlight badge-payment-protection\">qualifying lower price</span>");
+	$(".results").replaceText( "proof of price",  "<span class=\"highlight badge-payment-protection\">proof of price</span>");
+	$(".results").replaceText( "price match policy",  "<span class=\"highlight badge-payment-protection\">price match policy</span>");
+
+	$(".results").replaceText( "yearly renewal",  "<span class=\"highlight badge-payment-renew\">yearly renewal</span>");
+	$(".results").replaceText( "year renewal",  "<span class=\"highlight badge-payment-renew\">year renewal</span>");
+	$(".results").replaceText( "month renewal",  "<span class=\"highlight badge-payment-renew\">month renewal</span>");
+	$(".results").replaceText( "monthly renewal",  "<span class=\"highlight badge-payment-renew\">monthly renewal</span>");
+	$(".results").replaceText( "automatic renewal",  "<span class=\"highlight badge-payment-renew\">automatic renewal</span>");
+	$(".results").replaceText( "automatically renew",  "<span class=\"highlight badge-payment-renew\">automatically renew</span>");
+	$(".results").replaceText( "auto-renew",  "<span class=\"highlight badge-payment-renew\">auto-renew</span>");
+	$(".results").replaceText( "auto-renewal",  "<span class=\"highlight badge-payment-renew\">auto-renewal</span>");
+	$(".results").replaceText( "bi-annual renewal",  "<span class=\"highlight badge-payment-renew\">bi-annual renewal</span>");
+
+	$(".results").replaceText( "valid credit card",  "<span class=\"highlight badge-payment-accurate\">valid credit card</span>");
+	$(".results").replaceText( "card on file",  "<span class=\"highlight badge-payment-accurate\">card on file</span>");
+	$(".results").replaceText( "accurate credit",  "<span class=\"highlight badge-payment-accurate\">accurate credit</span>");
+	$(".results").replaceText( "valid payment method",  "<span class=\"highlight badge-payment-accurate\">valid payment method</span>");
+
+	$(".results").replaceText( "1-click",  "<span class=\"highlight badge-payment-1click\">1-click</span>");
+	$(".results").replaceText( "1 click",  "<span class=\"highlight badge-payment-1click\">1 click</span>");
+	$(".results").replaceText( "one-click",  "<span class=\"highlight badge-payment-1click\">one-click</span>");
+	$(".results").replaceText( "one click",  "<span class=\"highlight badge-payment-1click\">one click</span>");
+
+	$(".results").replaceText( "sensitive data",  "<span class=\"highlight badge-payment-SSL\">sensitive data</span>");
+	$(".results").replaceText( "SSL",  "<span class=\"highlight badge-payment-SSL\">SSL</span>");
+	$(".results").replaceText( "secure sockets layer",  "<span class=\"highlight badge-payment-SSL\">secure sockets layer</span>");
+	$(".results").replaceText( "Secure Sockets Layer (SSL) encryption",  "<span class=\"highlight badge-payment-SSL\">Secure Sockets Layer (SSL) encryption</span>");

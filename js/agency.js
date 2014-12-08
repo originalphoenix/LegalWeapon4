@@ -32,6 +32,21 @@ $(document).on('click', '#userSubmit', function (e) {
 	return false;
 });
 
+$(document).on('click', '#demoModal', function (e) {
+    $('#demotos').modal('show');
+    console.log('modal');
+    e.preventDefault();
+    return false;
+});
+
+$(document).on('click', '.demo-button', function (e) {
+    var demo = $(this).data('demo') + ".txt";
+    document.location = "results.php?text=" + demo;
+    
+    e.preventDefault();
+    return false;
+});
+
 $('.home-form').bind('submit', function (e) {
     // wrap all line breaks in p tags
     var text = $(".home-form-text").val();

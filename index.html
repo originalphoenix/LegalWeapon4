@@ -19,22 +19,17 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.0.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="//cdn.rawgit.com/noelboss/featherlight/1.0.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript">
-        $(window).load(function(){ document.getElementById("mylightbox").click(); })
-    </script>
 </head>
 
 <body id="page-top" class="index home">
@@ -70,9 +65,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team" data-featherlight="#mylightbox">Lightbox</a>
                     </li>
                 </ul>
             </div>
@@ -353,9 +345,9 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
 </textarea>
 
                     <div class="submit-section">
-                        <button class="form-submit" id="userSubmit" onclick="javascript:convertText()">FIND OUT WHAT THIS THING SAYS</button>
+                        <button class="form-submit" id="userSubmit">FIND OUT WHAT THIS THING SAYS</button>
                         <p>OR</p>
-                        <button class="form-submit small-button" data-toggle="modal" data-target="#demotos">USE A DEMO</button>
+                        <button class="form-submit small-button" id="demoModal" data-toggle="modal" data-target="#demotos">USE A DEMO</button>
                     </div>
                 </form>
             </div>
@@ -496,7 +488,7 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/billy.jpg" class="img-responsive img-circle" alt="">
                         <h4>Billy Janssen</h4>
                         <p class="text-muted">Back-End Dev</p>
                     </div>
@@ -519,7 +511,7 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <img src="img/team/michael.jpg" class="img-responsive img-circle" alt="">
                         <h4>Michael Scott</h4>
                         <p class="text-muted">Researcher</p>
                     </div>
@@ -540,28 +532,50 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    <a href="http://developer.wordnik.com/">
+                        <img src="img/logos/wordnik.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    <a href="http://getbootstrap.com/2.3.2/">
+                        <img src="img/logos/bootstrap.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    <a href="http://dictionary.reference.com/">
+                        <img src="img/logos/dictionary.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    <a href="http://www.openxrest.com/">
+                        <img src="img/logos/openx.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </aside>
+
+    <!-- Demo Modal -->
+    
+    <div class="modal fade" id="demotos" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="exampleModalLabel">Use our Demo Content</h4>
+          </div>
+          <div class="modal-body">
+            <button class="form-submit small-button demo-button" data-demo="itunes-tos"><img src=""></button>
+            <button class="form-submit small-button demo-button" data-demo="pandora-tos"><img src=""></button>
+            <button class="form-submit small-button demo-button" data-demo="shopify-privacy"><img src=""></button>
+            <button class="form-submit small-button demo-button" data-demo="warner-bros-tos"><img src=""></button>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <footer>
@@ -597,25 +611,14 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <!--<script src="js/contact_me.js"></script>-->
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-    <script src="js/convert-text.js"></script>
-
-</body>
-
-<!-- Demo Modal -->
-<div class="" id="#mylightbox" >
-  <p>content</p>
-</div>
-
-
-
+    </body>
 </html>

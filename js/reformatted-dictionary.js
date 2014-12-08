@@ -227,5 +227,6 @@
 //This is for headers and stuff!
 
 	$("p").replaceText( "TERMS OF SERVICE",  "<span class=\"title\">TERMS OF SERVICE</span></p>");
+	$("p").replaceText( "TERMS OF SERVICE",  "<span class=\"title\">TERMS OF SERVICE</span></p>");
 	$("p").replaceText( "OVERVIEW",  "<span class=\"subtitle\">Overview</span>");
 	$("p").replaceText( "SECTION",  "</p><p class=\"section-title\">SECTION");
