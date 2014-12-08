@@ -33,6 +33,15 @@ $(document).on('click', '#userSubmit', function (e) {
 });
 
 $('.home-form').bind('submit', function (e) {
+    // wrap all line breaks in p tags
+    var text = $(".home-form-text").val();
+    var parts = text.split("\n");
+    text = parts.join("</p><p>");
+    text = "<p>" + text + "</p>";
+    
+    // replace value
+    $(".home-form-text").val(text);
+    
 	var postData = $(this).serializeArray();
     var formURL = $(this).attr("action");
     $.ajax(

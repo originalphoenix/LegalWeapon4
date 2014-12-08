@@ -24,17 +24,20 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-
+    <link href="//cdn.rawgit.com/noelboss/featherlight/1.0.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="//cdn.rawgit.com/noelboss/featherlight/1.0.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(window).load(function(){ document.getElementById("mylightbox").click(); })
+    </script>
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index home">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -67,6 +70,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team" data-featherlight="#mylightbox">Lightbox</a>
                     </li>
                 </ul>
             </div>
@@ -349,7 +355,7 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
                     <div class="submit-section">
                         <button class="form-submit" id="userSubmit" onclick="javascript:convertText()">FIND OUT WHAT THIS THING SAYS</button>
                         <p>OR</p>
-                        <button class="form-submit small-button">USE A DEMO</button>
+                        <button class="form-submit small-button" data-toggle="modal" data-target="#demotos">USE A DEMO</button>
                     </div>
                 </form>
             </div>
@@ -373,10 +379,10 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
                    <p class="text-center">LEGALEASE is here to help you blast through the legal speak, and output a clean, simple document that even a baby could understand (if babies could read). Simply copy/paste your document into the window, and LEGALEASE will do the rest.</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4"><i class="fa fa-check-square-o fa-5x"></i>  Before You Agree</div>
-            <div class="col-md-4"><i class="fa fa-files-o fa-5x"></i>  Just do a Ctrl + C</div>
-            <div class="col-md-4"><i class="fa fa-clipboard fa-5x"></i>  And a Ctrl + V</div></div>
+        <div class="row dayum">
+            <div class="col-md-4"><i class="fa fa-check-square-o fa-5x"></i><p><strong><br>Before You Agree</strong></p></div>
+            <div class="col-md-4"><i class="fa fa-files-o fa-5x"></i><p><strong><br>Just do a Ctrl + C</strong></p></div>
+            <div class="col-md-4"><i class="fa fa-clipboard fa-5x"></i><p><strong><br>And a Ctrl + V</strong></p></div></div>
     </section>
 
     <!-- Badges Section -->
@@ -391,24 +397,21 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <img width="100" src="img/result-badges/Liability.png">
                     </span>
                     <h4 class="service-heading">E-Commerce</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <img width="100" src="img/result-badges/Nuclear.png">
                     </span>
                     <h4 class="service-heading">Responsive Design</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <img width="100" src="img/result-badges/Payment.png">
                     </span>
                     <h4 class="service-heading">Web Security</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
@@ -417,26 +420,32 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        <img width="100" src="img/result-badges/PhotoRights_Commercial.png">
                     </span>
                     <h4 class="service-heading">E-Commerce</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <img width="100" src="img/result-badges/Privacy_Full.png">
                     </span>
                     <h4 class="service-heading">Web Security</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <img width="100" src="img/result-badges/Refund_14.png">
                     </span>
                     <h4 class="service-heading">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <img width="100" src="img/result-badges/ThirdParty_Bite.png">
+                    </span>
+                    <h4 class="service-heading">E-Commerce</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
             </div>
@@ -603,34 +612,10 @@ Questions about the Terms of Service should be sent to us at support@shopify.com
 </body>
 
 <!-- Demo Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Pick a demo legal document!</h4>
-      </div>
-      <div class="modal-body">
-        <button type="button" class="btn btn-primary btn-lg">
-  iTunes 
-</button>
-        <button type="button" class="btn btn-primary btn-lg">
-  Warner Brothers
-</button>
-        <button type="button" class="btn btn-primary btn-lg">
-  Pandora
-</button>
-    <button type="button" class="btn btn-primary btn-lg">
-  Shopify 
-</button>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+<div class="" id="#mylightbox" >
+  <p>content</p>
 </div>
+
+
 
 </html>

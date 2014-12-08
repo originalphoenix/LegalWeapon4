@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/tooltip-box.css" />
 
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -33,6 +34,7 @@
 </head>
 
 <body id="page-top" class="index">
+
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -55,13 +57,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Your Results</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Share</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Save</a>
+                        <a class="page-scroll">These are your Results</a>
                     </li>
                 </ul>
             </div>
@@ -78,30 +74,34 @@
                     <h2 class="section-heading">Results of our Analysis:</h2>
                 <div class="row">
                     <div class="row-fluid">
-    <div class="span2 offset1">
-    <img class="liability-badge" src="img/result-badges/Liability.png">
-    <img class="nuclear" src="img/result-badges/Nuclear.png">
-    <img class="payment" src="img/result-badges/Payment.png">
-    </div>
-    <div class="span2">
-    <img class="pr-commercial" src="img/result-badges/PhotoRights_Commercial.png">
-    <img class="pr-noncommercial" src="img/result-badges/PhotoRights_NonCommercial.png">
-    <img class="pr-modify" src="img/result-badges/PhotoRights_Modify.png">
-    </div>
-    <div class="span2">
-    <img class="full-privacy" src="img/result-badges/Privacy_Full.png">
-    <img class="quarter-privacy" src="img/result-badges/Privacy_OneQuarter.png">
-    <img class="three-privacy" src="img/result-badges/Privacy_ThreeQuarter.png">
-    </div>
-    <div class="span2">
-    <img class="refund-30" src="img/result-badges/Refund-30.png">
-    <img class="refund-60" src="img/result-badges/Refund-60.png">
-    <img class="refund-90" src="img/result-badges/Refund-90.png">
-    </div>
-    <div class="span2">
-    <img class="third-party-some" src="img/result-badges/ThirdParty_Bite.png">
-    <img class="third-party-all" src="img/result-badges/ThirdParty_Full.png">
-    </div>
+   <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2 offset1">
+   <div class="liability-badge"><img width="100" src="img/result-badges/Liability.png"></div>
+    <div class="nuclear"><img width="100" src="img/result-badges/Nuclear.png"></div>
+   <div class="payment"><img width="100" src="img/result-badges/Payment.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
+    <div class="pr-commercial"> <img width="100" src="img/result-badges/PhotoRights_Commercial.png"></div>
+    <div class="pr-noncommercial"><img width="100" src="img/result-badges/PhotoRights_NonCommercial.png"></div>
+    <div class="pr-modify"><img width="100" src="img/result-badges/PhotoRights_Modify.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
+    <div class="full-privacy"><img width="100" src="img/result-badges/Privacy_Full.png"></div>
+    <div class="quarter-privacy"><img width="100" src="img/result-badges/Privacy_OneQuarter.png"></div>
+    <div class="three-privacy"><img width="100" src="img/result-badges/Privacy_ThreeQuarters.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
+    <div class="refund-30"><img width="100" src="img/result-badges/Refund_30.png"></div>
+    <div class="refund-60"><img width="100"src="img/result-badges/Refund_60.png"></div>
+    <div class="refund-90"><img width="100"src="img/result-badges/Refund_90.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    
+    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
+    <div class="third-party-some"><img width="100" src="img/result-badges/ThirdParty_Bite.png"></div>
+    <div class="third-party-all"><img width="100" src="img/result-badges/ThirdParty_Full.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
 </div>
                     
                 </div>
@@ -173,6 +173,9 @@
 	$(function() {
 	$('.results').wordsmith();
 });
+var lastPos = null,
+    timer = 0;
+
 function clear() {
     lastPos = null;
 };
@@ -189,6 +192,52 @@ function checkScrollSpeed(){
     timer && clearTimeout(timer);
     timer = setTimeout(clear, 30);
 };
+
+$( document ).ready(function() {
+   if ($('span.badge-nuke-easteregg').length){
+        $(".nuclear").css("display", "block");
+    }
+     if ($('span.badge-payment-renew').length){
+        $(".payment").css("display", "block");
+    }
+     if ($('span.badge-photo-by-nd').length){
+        $(".pr-commercial").css("display", "block");
+    }
+     if ($('span.badge-photo-by-nc-sa').length){
+        $(".pr-noncommercial").css("display", "block");
+    }
+     if ($('span.badge-photo-by-nc').length){
+        $(".pr-modify").css("display", "block");
+    }
+     if ($('span.badge-privacy-register').length){
+        $(".full-privacy").css("display", "block");
+    }
+     if ($('span.badge-privacy-hacked').length){
+        $(".quarter-privacy").css("display", "block");
+    }
+     if ($('span.badge-privacy-unidentifiable').length){
+        $(".three-privacy").css("display", "block");
+    }
+     if ($('span.badge-refund-30').length){
+        $(".refund-30").css("display", "block");
+    }
+    if ($('span.badge-refund-30').length){
+        $(".refund-60").css("display", "block");
+    }
+    if ($('span.badge-refund-30').length){
+        $(".refund-90").css("display", "block");
+    }
+        if ($('span.badge-3rd-youshare').length){
+        $(".third-party-some").css("display", "block");
+    }
+        if ($('span.badge-3rd-advertising').length){
+        $(".third-party-all").css("display", "block");
+    }
+    if ($('span.badge-liable-deleteourstuff').length){
+        $(".liability-badge").css("display", "block");
+    }
+});
+
 	</script>
 </body>
 

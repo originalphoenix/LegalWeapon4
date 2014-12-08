@@ -926,12 +926,26 @@ span.subtitle, p.section-title {
     color: #964F4C;
 }
 
-.results > p {
-    font-size: 16px;
-}
 
 span.highlight {
-background-color: #67AAE2;
-padding: 3px;
-color: white;
+    background-color: #72B3E6; 
+    color: white; 
+    padding: 7px; 
+    cursor: pointer;
+    font-weight: bold;
 }
+
+
+/* This will control the badge display */
+
+ .liability-badge, .nuclear, .payment, .pr-commercial, .pr-noncommercial, .pr-modify, .full-privacy, .quarter-privacy, .three-privacy, .refund-30, .refund-60, .refund-90, .third-party-some, .third-party-all {
+ display: none;
+ }
+ 
+.home .row {
+    text-align: center; 
+ }
+ 
+ .dayum {
+     margin-top: 20px;
+ }
