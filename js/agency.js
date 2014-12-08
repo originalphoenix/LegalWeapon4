@@ -40,7 +40,7 @@ $(document).on('click', '#demoModal', function (e) {
 });
 
 $(document).on('click', '.demo-button', function (e) {
-    var demo = $(this).data('demo') + ".txt";
+    var demo = $(this).data('demo');
     document.location = "results.php?text=" + demo;
     
     e.preventDefault();

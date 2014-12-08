@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>LEGAL WEAPON 4</title>
+    <title>Legalease - Legalese made easy - Results</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -74,7 +74,7 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Results of our Analysis:</h2>
                 <div class="row">
-                    <div class="row-fluid">
+                    <div class="row-fluid" style="margin: 40px 0">
    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2 offset1">
    <div class="liability-badge"><img width="100" src="img/result-badges/Liability.png"></div>
     </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This company reserves the right to delete or alter your content without prior notice.</span></span></span>
@@ -138,7 +138,11 @@
             <div class="row">
                 <div class="col-lg-12 results">
                     <?php echo file_get_contents('temp_text_files/'.$_GET['text']); ?>
-                    <?ph if ($_GET['text'] != 'itunes-tos.txt' && 
+                    <?php 
+                        if ($_GET['text'] != 'itunes-tos' && $_GET['text'] != 'shopify-privacy' && $_GET['text'] != 'warner-bros-tos' && $_GET['text'] != 'pandora-tos') {
+                            unlink('temp_text_files/'.$_GET['text']);
+                        }
+                    ?>
                 </div>
             </div>
         </div>
@@ -163,11 +167,7 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://twitter.com/home?status=Go%20team%20%23TeamPrince%20for%20@koding%20%23hackathon%20led%20by%20@FinalPhoenix%20https://koding.com/Hackathon"><i class="fa fa-twitter"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -300,9 +300,10 @@
         <h4 class="modal-title">Legalese made Legaleasy.</h4>
       </div>
       <div class="modal-body">
-        <p>Welcome to Legalese, these are your results!</p>
+        <p>Welcome to Legalease, these are your results!</p>
         <p>If you're unsure about any word, highlight it and click to read it's definition</p>
         <p>Hover over any badge to see it's meaning!</p>
+        <p>Phrases that are highlighted in blue are what we use in the grading process.</p>
         <p>Understand what you're agreeing to before it's too late.</p>
         <p>Thank you for using Legalease!</p>
       </div>

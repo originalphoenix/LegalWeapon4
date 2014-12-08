@@ -224,9 +224,10 @@
 	$("p").replaceText( "secure sockets layer",  "<span class=\"highlight badge-payment-SSL\">secure sockets layer</span>");
 	$("p").replaceText( "Secure Sockets Layer (SSL) encryption",  "<span class=\"highlight badge-payment-SSL\">Secure Sockets Layer (SSL) encryption</span>");
 
-//This is for headers and stuff!
+/*This is for headers and stuff!
 
 	$("p").replaceText( "TERMS OF SERVICE",  "<span class=\"title\">TERMS OF SERVICE</span></p>");
-	$("p").replaceText( "TERMS OF SERVICE",  "<span class=\"title\">TERMS OF SERVICE</span></p>");
+	$("p").replaceText( "TERMS AND CONDITIONS",  "<span class=\"title\">TERMS OF SERVICE</span></p>");
 	$("p").replaceText( "OVERVIEW",  "<span class=\"subtitle\">Overview</span>");
 	$("p").replaceText( "SECTION",  "</p><p class=\"section-title\">SECTION");
+*/

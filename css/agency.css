@@ -341,7 +341,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -947,7 +947,7 @@ span.highlight {
  }
  
  .dayum {
-     margin-top: 20px;
+     margin-top: 60px;
  }
  
  .content{ 
@@ -1071,7 +1071,6 @@ span.highlight {
 
 .modal .small-button {
     background-color: transparent;
-    border
     color: black;
     width: auto;
 }
@@ -1083,4 +1082,26 @@ span.highlight {
 
 .navbar-default .navbar-brand {
     color: #fec503 !important;
+}
+
+.form-submit img {
+    background-color: white;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.home p {
+    font-size: 16px;
+}
+
+.results p {
+    font-size: 18px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
 }
