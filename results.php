@@ -17,23 +17,21 @@
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/tooltip-box.css" />
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
     <!-- Custom Fonts -->
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
-	<link href="//cdn.rawgit.com/noelboss/featherlight/1.0.2/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="//cdn.rawgit.com/noelboss/featherlight/1.0.2/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body id="page-top" class="index">
@@ -50,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">legalease</a>
+                <a class="navbar-brand page-scroll" href="index.html">legalease</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -81,67 +79,56 @@
    <div class="liability-badge"><img width="100" src="img/result-badges/Liability.png"></div>
     </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This company reserves the right to delete or alter your content without prior notice.</span></span></span>
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2 offset1">
-   <div class="liability-badge"><img width="100" src="img/result-badges/Nuclear.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This company reserves the right to delete or alter your content without prior notice.</span></span></span>
+   <div class="nuclear"><img width="100" src="img/result-badges/Nuclear.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">You are discouraged from using this service for the creation of a nuclear weapon
+</span></span></span>
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2 offset1">
-   <div class="liability-badge"><img width="100" src="img/result-badges/Payment.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This company reserves the right to delete or alter your content without prior notice.</span></span></span>
+   <div class="payment"><img width="100" src="img/result-badges/Payment.png"></div>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This service allows some method of automatic payments on a predictable schedule (annual, monthly, bi-annually, etc).</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="pr-commercial"> <img width="100" src="img/result-badges/PhotoRights_Commercial.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">You have license to distribute material for commercial and non-commercial purposes, but you may not modify the content. Attribution is required.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="pr-noncommercial"><img width="100" src="img/result-badges/PhotoRights_NonCommercial.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">You have license to re-distribute material for non-commercial purposes only. Attribution is required.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="pr-modify"><img width="100" src="img/result-badges/PhotoRights_Modify.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">You have license to distribute and modify material for non-commercial purposes only. If you modify the material, you must share the new material under the same license. Attibrution is required in all instances.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="full-privacy"><img width="100" src="img/result-badges/Privacy_Full.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This service includes some aspect of online registration. You may be able to open an account with a username, password, and personally identifying information, which will be stored in the service's database.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="quarter-privacy"><img width="100" src="img/result-badges/Privacy_OneQuarter.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This service does not 100% guarantee the saftey or security of your personal information from hackers.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="three-privacy"><img width="100" src="img/result-badges/Privacy_ThreeQuarters.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This service collects non-identifying information when you browse the site. This could include your IP address, ISP, browser, device, geolocation, etc. They likely analyzing demographic behavior on the site - such as pages you visit, links you click, and more</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="refund-30"><img width="100" src="img/result-badges/Refund_30.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This service offers a limited 30 day warranty.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="refund-60"><img width="100"src="img/result-badges/Refund_60.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This service offers a limited 60 day warranty.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="refund-90"><img width="100"src="img/result-badges/Refund_90.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This service offers a limited 90 day warranty.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="third-party-some"><img width="100" src="img/result-badges/ThirdParty_Bite.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This service offers you the opportunity to establish a link with your social acccounts, such as your Facebook, Twitter, or Google Plus profiles. The site may use information from linked social profiles to serve you targeted 3rd-party advertisements.</span></span></span>
     
     <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
     <div class="third-party-all"><img width="100" src="img/result-badges/ThirdParty_Full.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
-    
-    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
-    <div class="refund-30"><img width="100" src="img/result-badges/Refund_30.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
-    
-    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
-    <div class="refund-60"><img width="100"src="img/result-badges/Refund_60.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
-    
-    <span class="tooltipp tooltip-effect-1"><span class="tooltipp-item"><div class="span2">
-    <div class="refund-90"><img width="100"src="img/result-badges/Refund_90.png"></div>
-    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This is the test content</span></span></span>
+    </div></span><span class="tooltipp-content clearfix"><span class="tooltipp-text">This site uses technology such as cookies to track your browsing history and serve you "interest-based ads." These are ads that track your behavior and use non-identifying information about your browsing history to deliver ads that are relevant. You may or may not be able to opt-out of interest-based ads on this site, but you can always turn off cookies on your browser in your browser's settings.</span></span></span>
     
 </div>
                     
@@ -151,14 +138,15 @@
             <div class="row">
                 <div class="col-lg-12 results">
                     <?php echo file_get_contents('temp_text_files/'.$_GET['text']); ?>
+                    <?ph if ($_GET['text'] != 'itunes-tos.txt' && 
                 </div>
             </div>
         </div>
     </section>
 <div class="navbar-fixed-bottom" style="margin-bottom: 20px;">
-    <div class="achievement-banner container">
+    <div class="achievement container" style="display:none;">
     	<div class="achievement-icon">
-            <span class="icon"><p style="line-height: 52px !important;"><i class="fa fa-book fa-2x" style="font-size: 32px; line-height: 0px !important;"></i></p></span>
+            <span class="icon"><p style="line-height: 52px !important;"><i class="fa fa-book fa-2x" style="color: #45ca3d; font-size: 32px; line-height: 0px !important;"></i></p></span>
     	</div>
     	<div class="achievement-text">
     		<p class="achievement-notification">Achievement unlocked</p>
@@ -200,7 +188,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
 
@@ -243,7 +231,10 @@
             var newPos = window.scrollY;
             if ( lastPos != null ){ // && newPos < maxScroll 
                 var delta = newPos -  lastPos;
-                console.log(delta); // this is the result
+                if (delta > 200) {
+                    $('.achievement').show();
+                    $('.achievement').toggleClass('achievement-banner');
+                }
             }
             lastPos = newPos;
             timer && clearTimeout(timer);
